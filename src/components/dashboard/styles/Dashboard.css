@@ -1,0 +1,34 @@
+.DashboardStylesCuadros {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+.CuadroTareas{
+    align-self: start;
+    
+  
+}
+
+.Grafica{
+    align-self: center;
+    padding: 200px 0px 10px 90px;
+ 
+   
+}
+
+.MenuCentral{
+    
+    padding: 90px 10px 50px 100px;
+}
+.DashboardStyles{
+    font-size: 15px;
+    text-decoration:none;
+    display:flex;
+    justify-content: baseline;
+    overscroll-behavior-y: auto;
+    height: 100%;
+    width: 100%;
+}
