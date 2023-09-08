@@ -15,8 +15,14 @@ import { UserDetailPage } from '../../src/pages/UserDetailPage';
 import { ForgotPasswordPage } from '../pages/ForgotPasswordPage';
 import { OTPValidationPage } from '../pages/OTPValidationPage';
 import UpdatePasswordPage from '../pages/UpdatePasswordPage';
+import PassUpdateSuccessfullPage from '../pages/PassUpdateSuccessfullPage';
+import RegisterSuccessPage from '../pages/RegisterSuccessPage';
+
 
 export const AppRoutes = ()=>{
+
+
+
     return (
         <Routes>
           {/* Routes Definition */}
@@ -28,6 +34,8 @@ export const AppRoutes = ()=>{
           <Route path="/forgot-password/" element={<ForgotPasswordPage />}></Route>
           <Route path="/otp-validator" element={<OTPValidationPage/>}></Route>
           <Route path="/update-password" element={<UpdatePasswordPage/>}></Route>
+          <Route path="/pass-update-successfull" element={<PassUpdateSuccessfullPage/>}></Route>
+          <Route path="/user-registered-successfull" element={<RegisterSuccessPage/>}></Route>
           {/* Redirect when Page is Not Found */}
           <Route
           path='*'

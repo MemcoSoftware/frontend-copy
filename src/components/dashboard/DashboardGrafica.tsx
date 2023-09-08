@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/DashboardGrafica.css';
-import Grafica  from "./Images/copy.png";
+import Grafica  from "./img/estadistica.png";
 const DashboardGrafica = () => {
   return (
     <div>
