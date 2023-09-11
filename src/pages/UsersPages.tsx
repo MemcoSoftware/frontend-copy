@@ -53,11 +53,11 @@ export const UsersPages = () => {
   };
 
   return (
-    <div>
+    <div className='UserPages-container'>
       <DashboardMenuLateral />
       {users.length > 0 ? (
         // IF IS TRUE PRINT THIS:
-      <div>
+      <div className='UserPages-Container-Card'>
           {users.map((user: any) => (
             <div key={user._id} className='UsersPages-container-card'>
         <div className='UsersPages-card-section'>
