@@ -82,7 +82,7 @@ export const UserDetailPage = () => {
                         
                       </div>
                       <div className="usercard-buttons">
-                           <button className='usercard-button' data-section="#experience">More Info</button>
+                           <button className='usercard-button' data-section="#experience">Editar</button>
                       </div>
                     </div>
                   </section>
