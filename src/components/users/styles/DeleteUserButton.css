@@ -14,13 +14,14 @@
     top: 50%;
     right: 20px;
     left: 600px;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin: -600px auto 0 auto;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 8px #feeeed;
     overflow: hidden;
+    
   }
   
   #DeleteUser-checkbox-input {
@@ -29,8 +30,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     margin: 0;
     opacity: 0;
     z-index: 3;
@@ -41,8 +42,8 @@
     top: 50%;
     right: 0;
     left: 0;
-    width: 42px;
-    height: 58px;
+    width: 100%;
+    height: 100%;
     margin: -29px auto 0 auto;
     border-radius: 50%;
     z-index: 2;
@@ -50,10 +51,11 @@
   
   #DeleteUser-lid {
     position: relative;
-    width: 50px;
+    width: 42px;
     height: 4px;
-    left: -4px;
+    left: 5px;
     border-radius: 4px;
+    top: 10px;
   }
   
   #DeleteUser-lid:before {
@@ -70,16 +72,19 @@
   
   #DeleteUser-box {
     position: relative;
-    height: 52px;
-    margin-top: 2px;
+    height: 35px;
+    width:33px ;
+    margin-top: 12px;
     border-radius: 0 0 8px 8px;
+    left: 10px;
   }
   
   #DeleteUser-box-inner {
-    position: relative;
+    position: absolute;
     top: 4px;
-    width: 34px;
-    height: 44px;
+    width: 80%;
+    height: 80%;
+    left: 2px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 0 0 5px 5px;
@@ -95,7 +100,7 @@
   #DeleteUser-bin-lines:before,
   #DeleteUser-bin-lines:after {
     width: 3px;
-    height: 30px;
+    height: 16px;
     border-radius: 4px;
   }
   
@@ -158,8 +163,8 @@
   }
   
   #DeleteUser-checkbox-input:checked ~ #DeleteUser-layer {
-    width: 226px;
-    height: 226px;
+    width: 26px;
+    height: 26px;
   }
   
   @keyframes shake {

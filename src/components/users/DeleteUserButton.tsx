@@ -39,13 +39,13 @@ const DeleteUserButton: React.FC<DeleteUserButtonProps> = ({
       <div id='DeleteUser-app-cover'>
             <input
                 type='checkbox'
-                className=''
+                className='checkbox-delete'
                 id='DeleteUser-checkbox-input'
                 onClick={handleDeleteUser}
                 disabled={isDeleting}
             >
             </input>
-                <div id="DeleteUser-bin-icon">
+                <div className='DeleteUser-icon' id="DeleteUser-bin-icon">
                     <div id="DeleteUser-lid"></div>
                         <div id="DeleteUser-box">
                             <div id="DeleteUser-box-inner">
