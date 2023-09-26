@@ -10,6 +10,7 @@ import DashboardMenuLateral from '../components/dashboard/DashboardMenulateral';
 import DeleteUserButton from '../components/users/DeleteUserButton';
 import EditUserButton from '../components/users/EditUserButton';
 import useUserRoleVerifier from '../hooks/useUserRoleVerifier';
+import { logoutService } from '../services/authService';
 
 export const UserDetailPage = () => {
   const loggedIn = useSessionStorage('sessionJWTToken');
@@ -21,7 +22,7 @@ export const UserDetailPage = () => {
 
   useEffect(() => {
     if (!loggedIn) {
-      return navigate('/login');
+      return logoutService();
     } else {
       if (id) {
         getUserById(loggedIn, id)
@@ -38,7 +39,6 @@ export const UserDetailPage = () => {
   }, [loggedIn, id, navigate]);
 
   const handleDeleteSuccess = () => {
-    console.log('Usuario eliminado exitosamente');
     navigate('/users');
     window.alert('Usuario Eliminado satisfactoriamente');
   };
@@ -105,6 +105,19 @@ export const UserDetailPage = () => {
                         <div className="usercard-subtitle">Email</div>
                         <p className="usercard-desc">{user.email}</p>
                       </div>
+                      {/* Renderizar campos adicionales si el rol es "tecnico" */}
+                      {user.roles.some((role: any) => role.name === 'tecnico') && (
+                          <div className='usercard-content-3'>
+                            <div className="usercard-subtitle">Tipo</div>
+                            <p className="usercard-desc">{user.type}</p>
+                            <br />
+                            <div className="usercard-subtitle">Título</div>
+                            <p className="usercard-desc">{user.titulo}</p>
+                            <br />
+                            <div className="usercard-subtitle">Registro INVIMA</div>
+                            <p className="usercard-desc">{user.reg_invima}</p>
+                          </div>
+                        )}
                     </div>
                   )}
                 </div>

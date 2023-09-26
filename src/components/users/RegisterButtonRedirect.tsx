@@ -21,11 +21,10 @@ const RegisterButtonRedirect: React.FC = () => {
             className='RegisterUser-button-redirect'
             type='button' // Usamos type='button' en lugar de type='submit' para evitar envíos de formulario
             onClick={handleRedirect}
-            
           >
-            <PersonAddIcon/>
+            <PersonAddIcon />
           </button>
-      </div>  
+      </div>
     );
   } else {
     // Si el usuario no cumple con los requisitos, puedes renderizar null o cualquier otro componente/mensaje
