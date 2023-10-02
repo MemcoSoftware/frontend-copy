@@ -22,6 +22,9 @@ import { SedesPages } from '../pages/SedesPages';
 import SedeDetailPage from '../pages/SedeDetailPage';
 import CreateSedePage from '../pages/CreateSedePage';
 import UnauthorizedPage from '../pages/UnauthorizedPage';
+import { ClientsPages } from '../pages/ClientsPages';
+import { ClientDetailPage } from '../pages/ClientDetailPage';
+import CreateClientPage from '../pages/CreateClientPage';
 
 
 export const AppRoutes = ()=>{
@@ -47,6 +50,14 @@ export const AppRoutes = ()=>{
           <Route path="/sedes" element={<SedesPages />} />
           <Route path="/sedes/:id" element={<SedeDetailPage />} />
           <Route path="/create-sede" element={<CreateSedePage />}/>
+          
+          {/* HERE THE ROUTES FOR CLIENTS */}
+          <Route path="/clientes" element={<ClientsPages />} />
+          <Route path="/clientes/:id" element={<ClientDetailPage />} />
+          <Route path="/crear-cliente" element={<CreateClientPage />} />
+          
+
+
 
           {/* Unauthorized Page */}
           {/* <Route path="/unauthorized" element={<UnauthorizedPage />}/> */}
