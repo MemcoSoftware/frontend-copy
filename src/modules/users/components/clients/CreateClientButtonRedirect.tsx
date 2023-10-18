@@ -4,7 +4,6 @@ import { useSessionStorage } from '../../hooks/useSessionStorage';
 import useUserRoleVerifier from '../../hooks/useUserRoleVerifier';
 import AddBusinessIcon from '@mui/icons-material/AddBusiness';
 import './styles/CreateClientButtonRedirect.css';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 const CreateClientButtonRedirect: React.FC = () => {
   // Obtener el estado de autenticación y el rol del usuario
@@ -25,7 +24,7 @@ const CreateClientButtonRedirect: React.FC = () => {
           type='button'
           onClick={handleRedirect}
         >
-          <PersonAddIcon />
+          <AddBusinessIcon />
         </button>
       </div>
     );

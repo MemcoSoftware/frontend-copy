@@ -17,15 +17,10 @@
   order: 0;
   padding: 10px;
   margin: center;
-  position: relative;
-  top: -100px;
 
 
 }
-.DashboardMenuCentral-logo-Ziriuz{
-  width:250px;
-  height:150px;
-}
+
 
 .DashboardMenuCentral-title{
   font-size: 20px;
@@ -55,10 +50,12 @@
   border-radius: 6px;
   background-color: #1f1f1f;
   transition: background-color 0.3s ease; 
+
 }
 .DashboardMenuCentral-button:hover {
   color: #fff;
-  background-color: #00ddfa; 
+  background-color: #00ddfa;
+  
 }
 .DashboardMenuCentral-nav{
   height: 700px;
@@ -67,6 +64,9 @@
   text-align: center;
   background-color:#28292d;
   border-radius: 30px;
+
+
+  
 }
 .DashboardMenuCentral-nav-ul{
   height: 100%;
@@ -196,15 +196,7 @@
         left: 100%;
     }
 }
-/*////////////////---- Media---
-android  412* 914
-iphon 400* 845
-ipad 820*1180
-tablet712*1138
-laptop 1280*720-1920*1080
-pc 1920 * 1200
-uhd 3.840 x 2.160 
-///////////////////////////////////*/
+
 
 @media screen and (min-device-width: 412px) and (max-device-width: 914px) {
   /*.DashboardMenuCentral{

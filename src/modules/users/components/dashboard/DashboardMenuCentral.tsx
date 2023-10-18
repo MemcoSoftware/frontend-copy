@@ -15,7 +15,7 @@ const DashboardMenuCentral = () => {
               <section className="DashboardMenuCentral-LogoPrincipal">
                   <div className="DashboardMenuCentral-logo">
                           <a className="DashboardMenuCentral-a" href="">
-                              <img className="DashboardMenuCentral-logo-Ziriuz" src={ZiriuzDashboardLogo} alt=""  />
+                              <img  src={ZiriuzDashboardLogo} alt="" width = "250px" height = "150px" />
                               <span></span>
                               <span></span>
                               <span></span>
