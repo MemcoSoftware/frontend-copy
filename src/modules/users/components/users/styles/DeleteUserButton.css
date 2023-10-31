@@ -228,18 +228,13 @@
 }
 
 /***********************************************/
-
-@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
+@media screen and (min-device-width: 412px) and (max-device-width: 915px) {
   #DeleteUser-app-cover {
     position: absolute;
-    top:-125px;
-    left: 455px;
+    top:50px;
+    left: 300px;
     width: 50px;
     height: 50px;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px #feeeed;
-    overflow: hidden;
     
   }
   
@@ -250,12 +245,10 @@
 @media screen and (min-device-width: 600px) and (max-device-width: 845px){
   #DeleteUser-app-cover {
     position: absolute;
-    top: 50%;
     right: 20px;
-    left: 600px;
+    left: 450px;
     width: 50px;
     height: 50px;
-
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 8px #feeeed;
@@ -269,16 +262,10 @@
 @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
   #DeleteUser-app-cover {
     position: absolute;
-    top: -50%;
     right: 20px;
-    left: 600px;
+    left: 60px;
     width: 50px;
     height: 50px;
-    margin: -600px auto 0 auto;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px #feeeed;
-    overflow: hidden;
     
   }
   
@@ -289,7 +276,6 @@
 @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
   #DeleteUser-app-cover {
     position: absolute;
-    top: 50%;
     right: 20px;
     left: 600px;
     width: 50px;
@@ -306,10 +292,9 @@
   
 }
 /* Extra large devices (large laptops and desktop, 1200px and up */
-@media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
+  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
   #DeleteUser-app-cover {
     position: absolute;
-    top: 50%;
     right: 20px;
     left: 600px;
     width: 50px;
@@ -323,4 +308,4 @@
   }
   
  
-}
+} 

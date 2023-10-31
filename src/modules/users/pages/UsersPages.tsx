@@ -51,11 +51,13 @@ export const UsersPages = () => {
   return (
     <div className='UserPages-container'>
       <DashboardMenuLateral />
+      <div className=' button-sarch-create'>
+      <RegisterButtonRedirect />
       <SearchUsers
         showSearchResults={showSearchResults} // Pasa el estado a SearchUsers
         setShowSearchResults={setShowSearchResults} // Pasa la función para cambiar el estado
       />
-      <RegisterButtonRedirect />
+       </div>
       <div className='UserPages-Container-Card'>
         {showSearchResults ? ( // Muestra los resultados de búsqueda si showSearchResults es true
           <p></p>

@@ -162,7 +162,7 @@
   
   .delete-button-user{
     margin-top: 0;
-     position: relative;
+    position: relative;
     left: -180px;
     height: 30px;
     width: 30px;
@@ -224,7 +224,13 @@
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
   
-
+  .delete-button-user{
+    top: 20px;
+    position: absolute;
+    left: 50px;
+    height: 30px;
+    width: 30px;
+  }
   
 }
 
@@ -233,9 +239,11 @@
 @media screen and (min-device-width: 600px) and (max-device-width: 845px){
  
   .usercard {
-    width: 360px;
+    width: 320px;
     height: 500px;
     margin: auto;
+    top:-50px;
+    left: 25px;
     overflow-y: auto;
     position: relative;
     z-index: 1;
@@ -247,6 +255,15 @@
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
+  
+  .delete-button-user{
+    top: 20px;
+    position: absolute;
+    left: 50px;
+    height: 30px;
+    width: 30px;
+  }
+  
 }
 @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
  
@@ -284,6 +301,7 @@
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
+
 }
 
 @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
@@ -302,5 +320,12 @@
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  .delete-button-user{
+    top: 130px;
+    position: absolute;
+    left:90px;
+    height: 30px;
+    width: 30px;
   }
 }
