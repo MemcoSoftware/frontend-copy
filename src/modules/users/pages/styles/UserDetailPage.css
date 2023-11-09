@@ -223,14 +223,14 @@
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
-  
   .delete-button-user{
-    top: 20px;
-    position: absolute;
-    left: 50px;
+    top: -200px;
+    position: relative;
+    left: 0px;
     height: 30px;
     width: 30px;
   }
+
   
 }
 
@@ -256,13 +256,7 @@
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
   
-  .delete-button-user{
-    top: 20px;
-    position: absolute;
-    left: 50px;
-    height: 30px;
-    width: 30px;
-  }
+
   
 }
 @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
@@ -282,6 +276,14 @@
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
+  .delete-button-user{
+    top: -200px;
+    position: relative;
+    left: 270px;
+    height: 30px;
+    width: 30px;
+  }
+
 }
 
 @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
@@ -321,11 +323,5 @@
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   }
-  .delete-button-user{
-    top: 130px;
-    position: absolute;
-    left:90px;
-    height: 30px;
-    width: 30px;
-  }
+
 }

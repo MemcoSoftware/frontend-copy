@@ -1,6 +1,6 @@
 .CreateClient-button-redirect-container{
-    position: relative;
-    left: 1150px;
+    position: absolute;
+    left: 1200px;
     top: 45px;
 }
 
@@ -36,27 +36,27 @@
   }
 }
 @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-  .CreateClient-button-redirect-container{
+  .CreateClient-button-redirect{
       position: absolute;
-      left: 700px;
-      top: 60px;
+      left: 120px;
+      top: -45px;
      
   }
 }
-/*
-   @media screen and (min-device-width: 1080px) and (max-device-width: 1920px) {
-    .CreateClient-button-redirect-container{
-      position: absolute;
-      left: 1450px;
-      top: 55px;
-    }
-  } 
 
-  @media screen and (min-device-width: 1920px) and (max-device-width: 1200px) {
-    .CreateClient-button-redirect-container{
-      position: absolute;
-      left: 1700px;
-      top: 150px;
-    }
+@media screen and (min-device-width: 1080px)  {
+  .CreateClient-button-redirect{
+    position: absolute;
+    left: 220px;
+    top: 0rem;
   }
-     */
+} 
+
+  /* @media screen and (max-device-width: 1200px) {
+    .CreateClient-button-redirect{
+    position: absolute;
+    left: -25px;
+    top: -140px;
+    }
+  } */
+    

@@ -1,13 +1,49 @@
 .RegisterUser-button-redirec-container{
     position: relative;
-    left: 1150px;
-    top: 100px;
-}
+    left: 1200px;
+    top: -50px;
+} 
 
 
-.RegisterUser-button-redirect{
+ .RegisterUser-button-redirect{
     position: absolute;
-    top: -102px;
+    border-radius: 150px;
+    color:#00ddfa;
+    background-color: rgba(122, 122, 122, 0.6);
+    padding: 5px;
+    height: 55px ;
+    width:55px ;
+} 
+
+@media screen and (min-device-width: 412px) and (max-device-width: 915px) {
+    .RegisterUser-button-redirec-container{
+        position: absolute;
+        left: 330px;
+        top: 170px;
+    }
+    .RegisterUser-button-redirect{
+      position: absolute;
+      top: -150px;
+      border-radius: 150px;
+      color:#00ddfa;
+      background-color: rgba(122, 122, 122, 0.6);
+      padding-top: 10px;
+      height: 45px ;
+      width:45px ;
+  }
+  }
+
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 845px){
+  .RegisterUser-button-redirec-container{
+      position: absolute;
+      left: 450px;
+      top: 115px;
+  }
+  .RegisterUser-button-redirect{
+    position: absolute;
+    top: -150px;
     border-radius: 150px;
     color:#00ddfa;
     background-color: rgba(122, 122, 122, 0.6);
@@ -15,49 +51,58 @@
     height: 55px ;
     width:55px ;
 }
-
-@media screen and (min-device-width: 412px) and (max-device-width: 915px) {
-    .RegisterUser-button-redirec-container{
-        position: absolute;
-        left: 330px;
-        top: 115px;
-    }
-  }
-  
-  
-  
-  @media screen and (min-device-width: 600px) and (max-device-width: 845px){
-    .RegisterUser-button-redirec-container{
-        position: absolute;
-        left: 450px;
-        top: 115px;
-    }
-  }
-  @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-    .RegisterUser-button-redirec-container{
-        position: absolute;
-        left: 700px;
-        top: 118px;
-       
-    }
-  }
-  /*
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  .RegisterUser-button-redirect{
+    position: absolute;
+    top: 110px;
+    border-radius: 150px;
+    color:#00ddfa;
+    background-color: rgba(122, 122, 122, 0.6);
+    padding: 5px;
+    height: 55px ;
+    width:55px ;
+}
+  .RegisterUser-button-redirec-container{
+    position: absolute;
+    left: 625px;
+    top: -88px;
     
-    @media screen and (min-device-width: 1080px) and (max-device-width: 1920px) {
-      .CreateSede-button-redirect-container{
-        position: absolute;
-        left: 1450px;
-        top: 170px;
-      }
-    }
-   
-    @media screen and (min-device-width: 1920px) and (max-device-width: 1200px) {
-      .CreateSede-button-redirect-container{
-        position: absolute;
-        left: 1550px;
-        top: 150px;
-      }
-      
-     
-      
-    } */
+}
+}
+@media screen and (min-device-width: 1080px) {
+  .RegisterUser-button-redirec-container{
+    position: absolute;
+    left: 1280px;
+    top: 0px;
+  }  
+  .RegisterUser-button-redirect{
+      position: absolute;
+      top: 50px;
+      border-radius: 150px;
+      color:#00ddfa;
+      background-color: rgba(122, 122, 122, 0.6);
+      padding: 5px;
+      height: 55px ;
+      width:55px ;
+  } 
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1200px) {
+  .RegisterUser-button-redirec-container{
+    position: absolute;
+    left: 1280px; 
+    top: 0px;
+  }  
+  .RegisterUser-button-redirect{
+      position: absolute;
+      top: 50px;
+      border-radius: 150px;
+      color:#00ddfa;
+      background-color: rgba(122, 122, 122, 0.6);
+      padding: 5px;
+      height: 55px ;
+      width:55px ;
+  } 
+}
+  

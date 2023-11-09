@@ -218,7 +218,7 @@
     }
 
 
-
+    /* medias users */
     @media screen and (min-device-width: 412px) and (max-device-width: 914px) {
       .sedeDetail-delete-button{
         margin-top: 0;
@@ -262,8 +262,6 @@
           width: 320px;
           height: 480px;
           
-        
-       
         }
             
         .sedeDetail-sede-section{
