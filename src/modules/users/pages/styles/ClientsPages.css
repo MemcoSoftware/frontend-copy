@@ -153,7 +153,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #093f2d 0%, #53956c 100%);
   
   }
   }
@@ -183,11 +183,11 @@
       border-radius: calc(var(--curve) * 1px);
       overflow: hidden;
       text-decoration: none;
-      background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+      background-image: linear-gradient(to top, #093f2d 0%, #53956c 100%);
     }
   }
   @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-  .ClientsPages-Container-Card{
+  .ClientsPages-Container-Card{ 
     width: 90%;
     height: 60%;
     display: flex;
@@ -209,7 +209,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #093f2d 0%, #53956c 100%);
   }
   }
   
@@ -234,7 +234,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #093f2d 0%, #53956c 100%);
   
     
   }

@@ -151,11 +151,13 @@
 	
   .SedesPages-Container-Card{
     width: 90%;
-    height: 100%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     padding:0;
-    list-style: none
+    list-style: none;
+    position:absolute;
+    top: 45px;
   }
   .SedesPages-card {
     align-self: center;
@@ -168,7 +170,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #acaf00 0%, #959153 100%);
   
   }
   }
@@ -196,30 +198,33 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #acaf00 0%, #959153 100%);
   }
   }
   @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
   .SedesPages-Container-Card{
     width: 90%;
-    height: 100%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     padding:0;
-    list-style: none
+    list-style: none;
+    position:absolute;
+    top: 45px;
   }
   .SedesPages-card {
     align-self: center;
     border-radius:  20px;
     padding: 5px;
     position: relative;
+    top: 25px;
     left: 190px;
     height: 220px;
     width: 250px;
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #acaf00 0%, #959153 100%);
   
   }
   }
@@ -245,7 +250,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #acaf00 0%, #959153 100%);
   
     
   }
@@ -274,7 +279,7 @@
       border-radius: calc(var(--curve) * 1px);
       overflow: hidden;
       text-decoration: none;
-      background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+      background-image: linear-gradient(to top, #acaf00 0%, #959153 100%);
     
       
     }

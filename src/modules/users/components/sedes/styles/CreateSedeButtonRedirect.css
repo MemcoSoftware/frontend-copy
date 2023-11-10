@@ -1,29 +1,30 @@
 .CreateSede-button-redirect-container{
-    position: relative;
-    left: 1150px;
-    top: 100px;
+  position: absolute;
+  left: 1200px;
+  top: 45px;
 }
 
 
 .CreateSede-button-redirect{
-    position: absolute;
-    top: -102px;
-    border-radius: 150px;
-    color:#00ddfa;
-    background-color: rgba(32, 32, 32,0.6);
-    padding: 5px;
-    height: 55px ;
-    width:55px ;
+  position: absolute;
+  top: -45px;
+  border-radius: 150px;
+  color:#00ddfa;
+  background-color: rgba(32, 32, 32,0.6);
+  padding: 5px;
+  height: 55px ;
+  width:55px ;
 }
 
 
 /* sedes media  */
+/* Clientes media */
 
 @media screen and (min-device-width: 412px) and (max-device-width: 915px) {
   .CreateSede-button-redirect-container{
       position: absolute;
       left: 330px;
-      top: 115px;
+      top: 60px;
   }
 }
 
@@ -33,34 +34,22 @@
   .CreateSede-button-redirect-container{
       position: absolute;
       left: 450px;
-      top: 115px;
+      top: 60px;
   }
 }
 @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-  .CreateSede-button-redirect-container{
+  .CreateSede-button-redirect{
       position: absolute;
-      left: 700px;
-      top: 118px;
+      left: 120px;
+      top: -45px;
      
   }
 }
-/*
-  
-  @media screen and (min-device-width: 1080px) and (max-device-width: 1920px) {
-    .CreateSede-button-redirect-container{
-      position: absolute;
-      left: 1450px;
-      top: 170px;
-    }
+
+@media screen and (min-device-width: 1080px)  {
+  .CreateSede-button-redirect{
+    position: absolute;
+    left: 220px;
+    top: 0rem;
   }
- 
-  @media screen and (min-device-width: 1920px) and (max-device-width: 1200px) {
-    .CreateSede-button-redirect-container{
-      position: absolute;
-      left: 1550px;
-      top: 150px;
-    }
-    
-   
-    
-  } */
+} 
