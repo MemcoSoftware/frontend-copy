@@ -53,6 +53,30 @@ const DashboardMenuCentral = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* <div className="wrapper">
+                            <div className="acordeon-core">
+                                <div className="acordeon">
+                                    <input id="acordeon-3" type="checkbox" name="acordeons"/>
+                                    <label htmlFor="acordeon-3">Generales</label>
+                                        <div className="acordeon-content">
+                                            <DashboardMenuCentralGenerales />                     
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="wrapper">
+                            <div className="acordeon-core">
+                                <div className="acordeon">
+                                    <input id="acordeon-4" type="checkbox" name="acordeons"/>
+                                    <label htmlFor="acordeon-4">Equipos</label>
+                                        <div className="acordeon-content">
+                                        <DashboardMenuCentralEquipos/>                    
+                                        </div>
+                                </div>
+                            </div>
+                        </div> */}
                         
                     </nav>
               </section>
