@@ -50,7 +50,7 @@ const DashboardMenuCentralGenerales = () => {
                                         {/* <img  alt="" width="40px" height="30px"/> */}
                                         <ShieldIcon/>
                                     </i>
-                                    <p className="DashboardMenuCentral-p">Permisos </p>  
+                                    <p className="DashboardMenuCentral-p">Roles </p>  
                                     </div>
                                 </li>
                             </button>

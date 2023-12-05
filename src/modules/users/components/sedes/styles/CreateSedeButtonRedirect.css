@@ -1,5 +1,5 @@
 .CreateSede-button-redirect-container{
-  position: absolute;
+  position: fixed;
   left: 1200px;
   top: 45px;
 }

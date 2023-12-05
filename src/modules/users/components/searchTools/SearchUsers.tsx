@@ -42,17 +42,16 @@ const SearchUsers: React.FC<SearchUsersProps> = ({ showSearchResults, setShowSea
       <div className='SearchUser-section'>
         <div className='SearchUser-section-container'>
           <form onSubmit={handleSubmit}> {/* Utiliza un formulario para manejar el evento 'submit' */}
-            <IconButton className='SearchUser-IconButton' type="submit" aria-label="search"> {/* Utiliza IconButton para el icono de búsqueda */}
-              <SearchIcon className='SearchUser-icon-search'/>
-            </IconButton>
             <input
               type="text"
-              placeholder=  "  SEARCH..."
+              placeholder="SEARCH..."
               className='SearchUsers-input'
               value={keyword}
               onChange={(e) => setKeyword(e.target.value)}
             />
-            
+            <IconButton className='SearchUser-IconButton' type="submit" aria-label="search"> {/* Utiliza IconButton para el icono de búsqueda */}
+              <SearchIcon className='SearchUser-icon-search'/>
+            </IconButton>
           </form>
         </div>
       </div>

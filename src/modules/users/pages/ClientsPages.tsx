@@ -37,14 +37,13 @@ export const ClientsPages = () => {
 
   return (
     <div className='ClientsPages-container'>
-      <div className='Container-clientContainer'>
-        <DashboardMenuLateral />
-        <CreateClientButtonRedirect />
-        <SearchClients
-          showSearchResults={showSearchResults}
-          setShowSearchResults={setShowSearchResults}
-        />
-      </div>
+      <DashboardMenuLateral />
+
+      <SearchClients
+        showSearchResults={showSearchResults}
+        setShowSearchResults={setShowSearchResults}
+      />
+      <CreateClientButtonRedirect />
       <div className='ClientsPages-Container-Card'>
         {showSearchResults ? (
           <p></p>

@@ -1,6 +1,6 @@
 /* SearchSedes.css */
 .SearchSede-section{
-  position: absolute;
+  position: fixed;
   top: 80px;
   left: 180px;
 } 
@@ -69,8 +69,7 @@
     
     .SearchSede-input[type=text]{
       position: absolute;
-      margin: 0px 0px 0px 25px;
-      padding: 15px 5px 15px 20px;
+      padding: 15px 0px 15px 20px;
       width: 120px;
       color: #00ddfa;
       text-transform: uppercase;

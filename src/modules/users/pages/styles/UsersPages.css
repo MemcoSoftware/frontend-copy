@@ -29,6 +29,7 @@
 
 }
   .UsersPages-card-UserImage{
+	  align-self: center;
 	  width:20%;
 	  height: 20%;
   }
@@ -125,26 +126,25 @@
 	}
 	
 	.UsersPages-container{
-	width: 100%;
+
+	width: 1200px;
 	height: 100%;
 	}
 
 	.UserPages-Container-Card{
 		width: 1200px;
 		height: 100%;
-		display:grid;
-		grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-		gap:2rem;
-		margin:2rem 3vw;
-		padding:0;
-		list-style: none
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+	gap:2rem;
+	margin:2rem 3vw;
+	padding:0;
+	list-style: none
 	}
 
 	@media screen and (min-device-width: 412px) and (max-device-width: 914px) {
 	
 		.UserPages-Container-Card{
-			position: relative;
-			top:40px;
 			width: 90%;
 			height: 100%;
 			display: flex;
@@ -164,7 +164,6 @@
 			overflow: hidden;
 			text-decoration: none;
 			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		  
 		
 		}
 	  }
@@ -175,12 +174,11 @@
 	   
 		.UsersPages-cards-list{
 			display:grid;
-			width: 90%;
-			height: 100%;
-			display: flex;
-			flex-direction: column;
+			grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+			gap:2rem;
+			margin:4rem 5vw;
 			padding:0;
-			list-style: none
+			list-style: none;
 			
 		  }
 		  .UsersPages-card {
@@ -190,17 +188,14 @@
 			display: block;
 			height: 280px;
 			width: 300px;
-			left: -10px;
 			border-radius: calc(var(--curve) * 1px);
 			overflow: hidden;
 			text-decoration: none;
 			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-		  }
+		}
 	  }
 	  @media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
 		.UserPages-Container-Card{
-			position: relative;
-			top: 60px;
 			width: 90%;
 			height: 100%;
 			display: flex;
@@ -213,22 +208,20 @@
 			border-radius:  20px;
 			padding: 5px;
 			position: relative;
-			left: -30px;
+			left: 50px;
 			height: 220px;
 			width: 250px;
 			border-radius: calc(var(--curve) * 1px);
 			overflow: hidden;
 			text-decoration: none;
 			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-			  
+		
 		}
 	  }
 	  
 	  @media screen and (min-device-width: 1920px) and (max-device-width: 1080px) {
 	  
 		.UsersPages-cards-list{
-			margin-top: 50px;
-			padding-top: 40px;
 			display:grid;
 			grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
 			gap:2rem;
@@ -238,7 +231,7 @@
 			
 		  }
 		  .UsersPages-card {
-		    border-radius:  20px;
+			border-radius:  20px;
 			padding: 5px;
 			position: relative;
 			display: block;
@@ -253,7 +246,7 @@
 		}
 	  }
 	  
-	  @media screen and  (min-device-width: 1200px) {
+	  @media screen and  (min-device-width: 1920px) and (max-device-width: 1200px) {
 	   
 		.usercard {
 		  width: 360px;

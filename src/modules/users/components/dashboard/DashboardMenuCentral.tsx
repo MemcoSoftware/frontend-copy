@@ -3,7 +3,7 @@ import './styles/DashboardMenuCentral.css';
 import ZiriuzDashboardLogo from './img/ziriuzDashboardLogo.png'
 import { useNavigate } from 'react-router-dom';
 import DashboardMenuCentralGenerales  from './DashboardMenuCentralGenerales';
-import DashboardMenuCentralEquipos from './DashboardMenuCentralEquipos';
+import DashboardMenuCentralEquipos from '../../../equipos/components/dashboard_equipos/DashboardMenuCentralEquipos';
 const DashboardMenuCentral = () => {
     const navigate = useNavigate();
 

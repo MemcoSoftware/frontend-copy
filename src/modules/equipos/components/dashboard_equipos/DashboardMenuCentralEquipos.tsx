@@ -15,7 +15,7 @@ const DashboardMenuCentralEquipos = () => {
                    
                         <ul className="DashboardMenuCentral-nav-ul">
                         {/* <h1 className='DashboardMenuCentral-title'> Equipos</h1> */}
-                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/users')}>
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                     <i className='DashboardMenuCentral-nav-icon-i'>    
@@ -25,18 +25,18 @@ const DashboardMenuCentralEquipos = () => {
                                     </div>
                                 </li>
                             </button>
-                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/sedes')}>
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos/modelos')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                         <i className='DashboardMenuCentral-nav-icon-i'> 
                                             {/* <img  alt=""width="40px" height="30px"/> */}
                                             <DevicesOtherOutlinedIcon/>       
                                         </i>
-                                        <p className="DashboardMenuCentral-p">Modelos|</p>
+                                        <p className="DashboardMenuCentral-p">Modelos</p>
                                     </div>
                                 </li>
                             </button>
-                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/clientes')}>
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos/areas')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                         <i className='DashboardMenuCentral-nav-icon-i'>
@@ -47,7 +47,7 @@ const DashboardMenuCentralEquipos = () => {
                                     </div>
                                 </li>
                             </button>
-                            <button className="DashboardMenuCentral-button">
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos/clases')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                     <i className='DashboardMenuCentral-nav-icon-i'>
@@ -58,7 +58,7 @@ const DashboardMenuCentralEquipos = () => {
                                     </div>
                                 </li>
                             </button>
-                            <button className="DashboardMenuCentral-button">
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos/marcas')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                     <i className='DashboardMenuCentral-nav-icon-i'>
@@ -69,7 +69,7 @@ const DashboardMenuCentralEquipos = () => {
                                     </div>
                                 </li>
                             </button>
-                            <button className="DashboardMenuCentral-button">
+                            <button className="DashboardMenuCentral-button" onClick={() => navigate('/equipos/tipos')}>
                                 <li>
                                     <div className="DashboardMenuCentral-nav-icon">
                                     <i className='DashboardMenuCentral-nav-icon-i'>

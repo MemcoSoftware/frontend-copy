@@ -47,15 +47,12 @@ export const SedesPages = () => {
 
   return (
     <div className='SedesPages-container'>
-      <div className='container-SedesContainer'>
-        <DashboardMenuLateral />
-        <CreateSedeButtonRedirect />
-        <SearchSedes
-          showSearchResults={showSearchResults}
-          setShowSearchResults={setShowSearchResults}
-        />
-      </div>
- 
+      <DashboardMenuLateral />
+      <CreateSedeButtonRedirect />
+      <SearchSedes
+        showSearchResults={showSearchResults}
+        setShowSearchResults={setShowSearchResults}
+      />
       <div className='SedesPages-Container-Card'>
         {showSearchResults ? (
           <p></p>

@@ -120,7 +120,8 @@
   
   .SearchUsers-input[type=text]{
     position: absolute;
-    padding: 15px 20px 15px 20px;
+    margin: 0px 0px 0px 25px;
+    padding: 15px 5px 15px 20px;
     width: 120px;
     color: #00ddfa;
     text-transform: uppercase;
@@ -178,14 +179,15 @@
   
   .SearchUsers-input[type=text]{
     position: absolute;
-    padding: 15px 0px 15px 20px;
-    width: 120px;
+    margin: 0px 0px 0px 25px;
+    padding: 15px 5px 15px 20px;
+    width: 140px;
     color: #00ddfa;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 2px;
-    &:focus{ width: 200px; }
+    &:focus{ width: 220px; }
   }
   .SearchUser-IconButton{
     position: absolute;
@@ -229,7 +231,7 @@
       font-weight: 100;
       letter-spacing: 2px;
       border: none;
-      border-radius: 1rem;
+      border-radius: 10px;
       background:#1c1c1c ;
       transition: width 0.4s ease;
       outline: none;

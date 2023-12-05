@@ -25,7 +25,7 @@ export const logoutService = () =>{
   sessionStorage.removeItem('userId');
   sessionStorage.removeItem('userRoles');
   window.location.href = '/login';
-  window.alert('La sesión ha expirado')
+ 
 }
 
 
@@ -90,6 +90,7 @@ export const register = (
         // Token inválido o expirado
         // Redirigir al usuario a la página de inicio de sesión (/login)
         window.location.href = '/login';
+        window.alert("An error ocurred while registering new user")
       }
     }
     throw error;
