@@ -1,14 +1,12 @@
 .RegisterModeloEquipo-button-redirec-container{
-    
-    position: relative;
-    left: 1150px;
-    top: 70px;
-    overflow: hidden;
+    position: absolute;
+    left:85%;
+    top:5%;
 }
 
 
 .RegisterModeloEquipo-button-redirect{
-    top: -95px;
+    top:5%;
     border-radius: 150px;
     color:#00ddfa;
     background-color: rgba(32, 32, 32,0.6);

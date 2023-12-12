@@ -1,9 +1,8 @@
 .RegisterEquipo-button-redirec-container{
     
-    position: relative;
-    left: 1150px;
-    top: 70px;
-    overflow: hidden;
+    position: absolute;
+    left:75%;
+    top:5%;
 }
 
 
